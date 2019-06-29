@@ -227,7 +227,7 @@ public class PlayerScript : MonoBehaviour {
             rigidbody2D.AddForce(5.0f * new Vector2(0.3f, 1.0f) * flap * 0.01f);
             rigidbody2D.AddForce(5.0f * new Vector2(0.3f, 1.0f) * flap * 0.01f);
 
-            rigidbody2D.AddForce(5.0f * new Vector2( 0.3f ,1.0f) * flap * 0.25f);
+            rigidbody2D.AddForce(5.0f * new Vector2( 0.3f ,1.0f) * flap * 0.35f);
             //rigidbody2D.AddForce(5.0f * new Vector2(0.0f, jump()) * flap *1.4f);
             rigidbody2D.AddForce(5.2f * Vector2.up * jump() * flap * 0.7f);
 
